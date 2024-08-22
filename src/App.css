@@ -1,0 +1,66 @@
+*{
+    color: #000000;
+    margin: 0;
+    padding: 0;
+}
+#todoHeading{
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #ffffff;
+}
+.main-container{
+    background-color: #662549;
+    height: 600px;  
+    width: 800px;
+    margin-top: 200px;
+    border: 15px solid #662549;
+    border-radius: 10px ;
+}
+#todoTaskInput{
+    position: relative;
+    bottom: 2px;
+    height: 38px;
+    border: #662549 2px solid;
+    border-radius: 5px;
+}
+#todoTaskInput::placeholder{
+    color: black;
+    padding-left: 3px;
+}
+#todoDateInput{
+    color: black;
+    height: 38px;
+    position: relative;
+    bottom: 2px;
+    border: #AE445A 2px solid;
+    border-radius: 5px;
+}
+input{
+    width: 100%;
+}
+.my-input-row{
+    margin-bottom: 20px;
+}
+.tasks{
+    text-align: left;
+}
+.todo-container{
+    width: 80%;
+    height: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+.my-rows{
+    margin: 15px;
+}
+.my-buttons{
+    width: 73px;
+    position: relative;
+    bottom: 2px;
+}
+.tasks{
+    color: white;
+}
+
